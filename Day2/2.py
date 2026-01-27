@@ -38,7 +38,7 @@ if(age<=18):
 else:
     print("you are an minor")
 
- """
+
 
 #membership operators
 
@@ -53,3 +53,33 @@ if("python" not in a):
     print("yes")
 else:
     print("yes")
+   
+
+#List
+
+arr=["apple","banana","chilly","strawberry","coconut","mango","pineapple"]
+
+print(arr[0])
+arr.append("sugae")
+print(arr)
+
+arr.insert(1,"cap")
+print(arr)
+
+arr.pop()
+print(arr)
+
+arr.pop(0)
+print(arr)
+
+arr[0]="apple"
+print(arr)
+
+
+
+arr=["apple","banana","chilly","strawberry","coconut","mango","pineapple"]
+
+print(len(arr))
+print(arr.index("mango"))
+
+"""
