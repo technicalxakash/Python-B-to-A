@@ -26,9 +26,50 @@ print(s11-s22)
 s11.discard(10)
 
 print(s11)
-"""
+
 s=[66,55,4,23,12,21,1,2,2,3,3,3,4,5,6,7,7,88,88]
 print(s)
 #tuple=tuple(s)
 set=set(s)
 print(set)
+
+#dictionary
+
+
+
+thisdict1 = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "price":20000000
+}
+
+print(thisdict["brand"])
+
+print(thisdict.get("name","not found"))
+print(thisdict.get("year","not found"))
+
+thisdict["name"]="akash"
+
+print(thisdict)
+
+thisdict.pop("name")
+print(thisdict)
+
+"""
+
+thisdict1 = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "price":20000000
+}
+
+thisdict2 = {
+  "brand": "suziki",
+  "model": "swift",
+  "year": 1945,
+  "price":30000000
+}
+
+print(f"tottal price{thisdict1["price"] + thisdict2["price"]} price")
