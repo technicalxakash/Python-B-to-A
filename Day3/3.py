@@ -56,7 +56,7 @@ print(thisdict)
 thisdict.pop("name")
 print(thisdict)
 
-"""
+
 
 thisdict1 = {
   "brand": "Ford",
@@ -73,3 +73,6 @@ thisdict2 = {
 }
 
 print(f"tottal price{thisdict1["price"] + thisdict2["price"]} price")
+
+
+"""
