@@ -90,11 +90,11 @@
 #     print(i , end=" ")
     
 
-vow="this is my name"
-count=0
-for i in vow:
-    if i=="a" or i=="e" or i=="o" or i=="u":
-          count=count+1
-    else:
-         continue
-print(count) 
+# vow="this is my name"
+# count=0
+# for i in vow:
+#     if i=="a" or i=="e" or i=="o" or i=="u":
+#           count=count+1
+#     else:
+#          continue
+# print(count) 
