@@ -38,4 +38,14 @@
 #     print(f"{z} is greater")
 
 
+# year=int(input())
+
+# if year % 4 ==0 :
+#     if year % 100 !=0 or year % 400 ==0:
+#         print("it is leap year")
+#     else:
+#         print("it is leap year")
+# else:
+#     print("it is not a leap year")
+
 
