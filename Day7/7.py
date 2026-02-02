@@ -47,10 +47,6 @@
 #     a=tuple(integer_list)
 #     print(hash(a))
 
-# ABCDCDC
-# CDC
 
-str11="ABCDCDC"
-str1="CDC"
-for i in str11:
-    print(str11[3])
+
+
