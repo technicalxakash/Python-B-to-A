@@ -15,12 +15,104 @@
 #this is a string   
 #this-is-a-string
 
-strr="this is a string".split()
-strrr=[]
+# strr="this is a string".split()
+# strrr=[]
 
-strrr="-".join(strr)
-print(strrr)
+# strrr="-".join(strr)
+# print(strrr)
 
 
     
+# strr="aaabcabcabc"
+
+# substr="abc"
+# count=0
+# for i in range(len(strr)-len(substr)+1):
+#     if strr[i:i+len(substr)]==substr:
+#         count=count+1
+    
+# print(count)
+
+
+
+# l=[1,2,3,4,5,6]
+# l.sort(reverse=True)
+# g=l
+# print(g)
+#sort() modifies the original list and does not return the sorted list.
+
+#sorted() returns a new sorted list without changing the original list.
+# l=[1,2,3,4,5,6]
+
+# g=sorted(l,reverse=True)
+# print(g)
+
+
+# def tables(num):
+#     for i in range(1,11):
+#         print(f"{num} X {i} = {num*i}")
+#     print()
+   
+
+# tables(2) positional parameter
+# tables(3)
+
+
+# def tables(num=2): #default arugument
+#     for i in range(1,11):
+#         print(f"{num} X {i} = {num*i}")
+#     print()
+
+# tables()
+
+
+#return=we are using the value in somewhere with the help of return
+
+# def add(a):
+#     #print((str(a))*5)
+#     return int((str(a))*5)
+
+# b=100
+
+# c=b+add(2)
+# print(c)
+ 
+#String
+
+# strr="Hello, World!"
+# count=0
+# for i in strr:
+#     if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u'):
+#         count=count+1
+# print(f"Number of vowels : {count}")
+
+
+# strr="MOMM"
+
+# if strr[::-1]==strr:
+#     print("it is a palindrome")
+# else:
+#     print("not palimdrome")
+
+
+#Largest of three Numbers
+# num=list(map(int,input("enter the numbers : ").split(",")))
+# rw=max(num)
+# print(rw)
+
+# rmini=min(num)
+# print(rmini)
+
+
+# x,y,z=map(int,input("enter the numbers").split(","))
+
+# if(x<y and z<y):
+#     print(f"{y} is greater")
+# elif(y<x and z<x):
+#     print(f"{x} is greater")
+
+# else:
+#     print(f"{z} is greater")
+
+
 
