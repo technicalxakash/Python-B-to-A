@@ -26,11 +26,21 @@
 #Factorial
 
 
-num=[5]
-factt=1
-for i in num:
-    factt=factt*i
-    i=i-1
-print(factt)
+# num=[5]
+# factt=1
+# for i in num:
+#     factt=factt*i
+#     i=i-1
+# print(factt)
+
+#Reverse a numbber
+num = 123
+rev = 0
+
+while num > 0:
+    rev = rev * 10 + num % 10
+    num = num // 10
+
+print(rev)
 
 
