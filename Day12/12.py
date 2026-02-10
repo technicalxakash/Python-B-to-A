@@ -8,3 +8,5 @@ class Mobile:
 
 mo=Mobile("sumsung",10000000)         
 mo.working()
+
+#constructors
