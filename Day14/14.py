@@ -39,12 +39,11 @@
 
 #palindrome
 word="racecar"
-w1=[]
+w1=""
 
 for i in word:
-    w1=i
+    w1=i+w1
     
-prin t(w1)
 
 if w1==word:
     print("it is a palindrome")
