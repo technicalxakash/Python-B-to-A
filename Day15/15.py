@@ -29,3 +29,15 @@
 
 #count of digits
 
+# num=123456
+# last=0
+# count=0
+# while num>0:
+#     last=num%10
+#     count=count+1
+#     num=num//10
+# print(count)
+
+
+#sum of digits
+
