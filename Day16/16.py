@@ -58,11 +58,37 @@
 
 #armstrong number
 
-num=153
-count=0
-total=0
-while(num>0):
-    last=num%10
-    count=count+1
-    num=num//10
-print(count)
+# num=371
+# temp=num
+# count=0
+# total=0
+# arm=0
+
+# while(num>0):
+#     last=num%10
+#     count=count+1
+#     num=num//10
+
+# for i in str(temp):
+#     arm=arm+int(i)**count
+
+# print(arm)
+
+
+#Prime number check
+
+# num=10
+# is_prime=True
+
+# for i in range(2,(num//2)+1):
+#     if(num%i==0):
+#         is_prime=False
+#         break
+
+# if(is_prime==True):
+#     print("it is a prime number")
+
+# else:
+#     print("it is not a prime number")
+
+
