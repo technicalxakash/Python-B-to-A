@@ -145,3 +145,83 @@
 #                     print(num)
 
 # bool(10)
+
+
+#reveerse a numebr
+
+# num=1234
+# rev=0
+# while(num>0):
+#     digi=num%10
+#     rev=rev*10+digi
+#     num=num//10
+# print(rev)
+
+
+
+#bubble sort
+# arr=[5,3,2,1,7,6]
+
+# n=len(arr)
+
+# for i in range(n):
+#     for j in range(0,n-i-1):
+#         if(arr[j]>arr[j+1]):
+#             arr[j],arr[j+1]=arr[j+1],arr[j]
+# print(arr)
+
+
+#bubble sort 
+
+# arr=[5,3,2,1,7,6]
+# n=len(arr)
+
+# for i in range(n):
+#     for j in range(0,n-i-1):
+#         if(arr[j]>arr[j+1]):
+#             arr[j],arr[j+1]=arr[j+1],arr[j]
+
+# print(arr)
+
+
+#binary search
+
+# arr=[1,2,3,4,5,6]
+# target=5
+
+# low=0
+# high=len(arr)-1
+
+# while low <= high:
+#     mid=(low+high)//2
+
+#     if arr[mid]==target:
+#         print("found", mid)
+#         break
+#     elif arr[mid]<target:
+#         low=mid+1
+#     else:
+#         high=mid-1
+
+   
+
+# arr1=[5,3,2,1,7,6]
+
+# arr=sorted(arr1)
+
+# target=5
+# low=0
+# high=len(arr)-1
+
+# while low<=high:
+#     mid=(low+high)//2
+
+#     if arr[mid]==target:
+#         print("eleemnt found at",mid)
+#         break
+#     elif arr[mid]<target:
+#         low=mid+1
+#     else:
+#         high=mid-1
+
+
