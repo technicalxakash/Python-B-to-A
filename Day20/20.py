@@ -225,3 +225,66 @@
 #         high=mid-1
 
 
+# num=6
+# is_prime=True
+# for i in range(2,(num//2)+1):
+#     if num%i==0:
+#         is_prime=False
+#         break
+
+# if is_prime==True:
+#     print("it is a prime number")
+# else:
+#     print("it is not a prime number")
+
+
+# def funcc(num):
+#     for num in range(1,num+1):
+#         if num>1:
+#              is_prime=True
+
+#              for i in range(2,(num//2)+1):
+#                     if num%i==0:
+#                         is_prime=False
+#                         break
+#              if is_prime==True:
+#                     print(num)
+
+# funcc(51)
+
+
+#Bubble sort
+
+# arr=[2,6,5,4,3]
+
+# n=len(arr)
+# for i in range(n):
+#      for j in range(0,n-i-1):
+#           if(arr[j]>arr[j+1]):
+#                arr[j],arr[j+1]=arr[j+1],arr[j]
+
+# print(arr)
+
+#Binary search
+
+# arr1=[2,6,5,4,3]
+
+# arr=sorted(arr1)
+# low=0
+# high=len(arr)-1
+# target=5
+
+# while low<=high:
+#     mid=(low+high)//2
+
+#     if(arr[mid]==target):
+#         print("found", mid)
+#         break
+
+#     elif(arr[mid]<target):
+#         low=mid+1
+#     else:
+#         high=mid-1
+
+#fib
+
