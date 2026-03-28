@@ -35,17 +35,19 @@
 
 #write a program to convert all uppercase to lowercase, lowercase to upper
 
-strr="aaaaaaaAAAAAA"
+# strr="aaaaaaaAAAAAA"
 
-#print(strr.swapcase())
-res=""
+# #print(strr.swapcase())
+# res=""
 
 
-for ch in strr:
-    if ch>='a' and ch<='z':
-        res=res+chr(ord(ch)-32)
-    elif ch>='A' and ch<='Z':
-        res=res+chr(ord(ch)+32)
-    else:
-        res=res+ch
-print(res)
+# for ch in strr:
+#     if ch>='a' and ch<='z':
+#         res=res+chr(ord(ch)-32)
+#     elif ch>='A' and ch<='Z':
+#         res=res+chr(ord(ch)+32)
+#     else:
+#         res=res+ch
+# print(res)
+
+
